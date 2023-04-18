@@ -1,4 +1,3 @@
-import returnHowManyArguments from './4-rest-parameter.js';
+import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
 
-console.log(returnHowManyArguments('one'));
-console.log(returnHowManyArguments('one', 'two', 3, '4th'));
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));
